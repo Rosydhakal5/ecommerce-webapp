@@ -3,6 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "prettier": {
+    "singleQuote": true,
+    "semi": false,
+    "tabWidth": 2,
+    "printWidth": 80,
+    "trailingComma": "none"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -12,13 +19,17 @@
   "dependencies": {
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
-    "@mui/material": "^5.15.7",
+    "@mui/material": "^5.15.9",
     "@reduxjs/toolkit": "^2.1.0",
     "firebase": "^10.8.0",
+    "i": "^0.3.7",
+    "notistack": "^3.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^9.1.0",
-    "react-router-dom": "^6.22.0"
+    "react-router-dom": "^6.22.0",
+    "redux": "^5.0.1",
+    "redux-persist": "^6.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
